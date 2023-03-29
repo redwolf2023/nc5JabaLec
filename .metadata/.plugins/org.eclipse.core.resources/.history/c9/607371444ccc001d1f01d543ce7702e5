@@ -1,0 +1,13 @@
+package chap16_collectionFramework;
+
+public class _03_arrayListEx01 {
+
+	public static void main(String[] args) {
+
+		
+		//ArrayList<Employee>생성
+		//사용자가 1. 정규직, 2.계야직
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+package homework7;
+
+import java.util.Scanner;
+
+public class _01_BasicTest {
+	
+public static String getMiddleChars(String s) {
+		
+        int length = s.length();
+        int midIndex = length / 2;
+        if (length % 2 == 0) {
+            return s.substring(midIndex - 1, midIndex + 1);
+        } else {
+            return s.substring(midIndex, midIndex + 1);
+        }
+}
+        public static String removeVowels(String st) {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < st.length(); i++) {
+                char c = st.charAt(i);
+                if (c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u'
+                    && c != 'A' && c != 'E' && c != 'I' && c != 'O' && c != 'U') {
+                    sb.append(c);
+                }
+            }
+            return sb.toString();
+	}
+
+	public static void main(String[] args) {
+
+		 Scanner scanner = new Scanner(System.in);
+	        System.out.println("가운데 글자만 출력되는 문자열 쓰기");
+	        String s = scanner.nextLine();
+	        String result = getMiddleChars(s);
+	        System.out.println("결과: " + result);
+	        System.out.println("모음이 제거된 문자열 쓰기");
+	        String st = scanner.nextLine();
+	        String result1 = removeVowels(st);
+	        System.out.println("결과:" +result1);
+	        scanner.close();
+        
+      
+	}
+	
+	
+	
+
+
+}

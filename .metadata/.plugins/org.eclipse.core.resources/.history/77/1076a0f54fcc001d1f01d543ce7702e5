@@ -1,0 +1,18 @@
+package chap16_collectionFramework;
+
+import java.util.ArrayList;
+
+public class _03_arrayListEx01 {
+
+	public static void main(String[] args) {
+
+		
+		//ArrayList<Employee>생성
+		//사용자가 1. 정규직, 2.계약직 3. 임시직
+		//ArrayList<
+		
+		
+		ArrayList<>
+	}
+
+}

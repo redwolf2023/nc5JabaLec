@@ -1,0 +1,19 @@
+package homework6.business;
+
+public class TemporayMan extends BusinessMan {
+	
+	int hireYear;
+	
+
+	public TemporayMan(int id, String name, int pay, int hireYear) {
+		super(id, name, pay);
+		this.hireYear = hireYear;
+	}
+
+	@Override
+	public double getMonthPay() {
+		
+		return (double)getPay() / 12;
+
+	}
+}

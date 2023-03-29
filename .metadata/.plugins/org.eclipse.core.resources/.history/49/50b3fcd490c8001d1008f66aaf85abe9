@@ -1,0 +1,15 @@
+package homework7;
+
+import java.util.Scanner;
+
+public class _01_Basic {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		
+		
+	}
+
+}

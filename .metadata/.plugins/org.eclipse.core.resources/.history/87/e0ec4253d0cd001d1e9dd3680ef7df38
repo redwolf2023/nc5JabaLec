@@ -1,0 +1,7 @@
+package chap18_enum.enums;
+
+public enum DeaultMonth {
+	JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
+	SEP, OCT, NOV, DEC;
+
+}

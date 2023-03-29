@@ -1,0 +1,34 @@
+package homework8;
+
+import java.util.Arrays;
+
+public class Middle {
+
+	public static void main(String[] args) {
+
+		StringBuffer sb = new StringBuffer(30);
+		
+		String str1 = "hello";
+		
+		
+		//3.
+		
+		double money = 10000;
+		double rate = 0.1;
+		int year = 10;
+		
+		money = money + (money * rate);
+		
+		for(int i = 1; i <= year; i++) {
+			money = money + (money * rate);
+			System.err.println(i + "년후의 금액"+ money(Math.ceil(money)));
+		}
+		
+	}
+
+	private static int money(double ceil) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

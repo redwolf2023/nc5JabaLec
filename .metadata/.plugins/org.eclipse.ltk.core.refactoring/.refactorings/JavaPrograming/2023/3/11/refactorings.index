@@ -1,0 +1,43 @@
+1678781752078	Rename package '_99_etc'
+1678783975725	Rename package 'homework1'
+1678846122248	Copy compilation unit
+1678848209101	Delete element
+1678928045962	Move compilation unit
+1678928051323	Move compilation unit
+1678930884530	Rename package 'chap04_controlstatement'
+1678946398787	Rename package 'chap06_class'
+1678946754530	Rename package 'chap06_class.calc'
+1678946781282	Delete element
+1678946808803	Delete element
+1678946825675	Rename package 'chap06_class'
+1678947484373	Copy package
+1678947494091	Delete element
+1678947501306	Delete element
+1678947878222	Delete element
+1678948762749	Rename type 'Mutiple'
+1679018125041	Delete element
+1679033984246	Delete element
+1679034987346	Copy compilation unit
+1679035501771	Copy compilation unit
+1679035601025	Copy compilation unit
+1679036111352	Copy compilation unit
+1679036210666	Copy compilation unit
+1679036220145	Copy compilation unit
+1679036301102	Rename type 'KiaCarinherit'
+1679036323868	Rename type 'HyundaiCarinherit'
+1679036598555	Copy compilation unit
+1679039277796	Delete element
+1679039299621	Rename package 'homework4.print'
+1679039342359	Rename package 'homework4.print'
+1679040355100	Rename type 'Print'
+1679040370626	Rename type 'InkJetPrint'
+1679040375096	Rename type 'RazerPrint'
+1679041065011	Rename type 'RazerPrinter'
+1679041231017	Delete element
+1679041245834	Rename package 'homework4.print'
+1679041291253	Move compilation units
+1679041368700	Copy compilation unit
+1679041374293	Copy compilation unit
+1679041379750	Copy compilation unit
+1679041610392	Encapsulate field 'InkRemaining'
+1679041687053	Encapsulate field 'tonerRemaining'

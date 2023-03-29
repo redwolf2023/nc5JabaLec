@@ -1,0 +1,18 @@
+package homework0327;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Basic {
+
+	public static void main(String[] args) {
+
+		ArrayList aList = new ArrayList<>();
+		Scanner sc = new Scanner(System.in);
+		int list = sc.nextInt();
+		System.out.println("정수 5개를 입력하시오");
+		
+		
+	}
+
+}

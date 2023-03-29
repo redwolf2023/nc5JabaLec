@@ -1,0 +1,34 @@
+package homework7;
+
+import java.util.Scanner;
+
+public class _01_BasicTest {
+	
+public static String getMiddleChars(String s) {
+		
+        int length = s.length();
+        int midIndex = length / 2;
+        if (length % 2 == 0) {
+            return s.substring(midIndex - 1, midIndex + 1);
+        } else {
+            return s.substring(midIndex, midIndex + 1);
+        }
+	}
+
+	public static void main(String[] args) {
+
+		 Scanner scanner = new Scanner(System.in);
+	        System.out.println("문자열을 입력하세요: ");
+	        String s = scanner.nextLine();
+	        String result = getMiddleChars(s);
+	        System.out.println("결과: " + result);
+	        scanner.close();
+        
+      
+	}
+	
+	
+	
+
+
+}

@@ -1,0 +1,30 @@
+package homework8;
+
+import java.util.Arrays;
+
+public class Middle {
+
+	public static void main(String[] args) {
+
+		StringBuffer sb = new StringBuffer(30);
+		
+		String str1 = "hello";
+		
+		
+		//3.
+		
+		double money = 10000;
+		double rate = 0.1;
+		int year = 10;
+		
+		money = money + (money * rate);
+		
+		double total = money * Math.pow(1 + rate, year);
+		int totalInt = (int) total;
+		
+		System.out.println("10년 후 금액:" + totalInt + "원");
+		}
+		
+	}
+
+

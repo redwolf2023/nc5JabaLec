@@ -1,0 +1,23 @@
+package homework6.business;
+
+import homework6.business.employee.BusinessMan;
+
+public class ContractMan extends BusinessMan {
+	
+	int workDay;
+	
+	
+	
+	public ContractMan(int id, String name, int pay, int workDay) {
+		super(id, name, pay);
+		this.workDay = workDay;
+	}
+
+	@Override
+	public double getMonthPay() {
+	
+		return (double)getPay() * workDay;
+	}
+
+	
+}

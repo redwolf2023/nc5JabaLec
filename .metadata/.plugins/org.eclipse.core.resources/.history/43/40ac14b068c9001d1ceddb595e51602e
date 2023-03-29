@@ -1,0 +1,19 @@
+package homework8;
+
+import java.util.Scanner;
+
+public class Middle03 {
+	static int f(int num ) {
+		if(num == 0)return 0;
+		return f(num-1)+num;
+	}
+
+	public static void main(String[] args) {
+
+		
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		System.out.println(f(num));
+	}
+
+}

@@ -1,0 +1,32 @@
+package homework7;
+
+import java.awt.image.AbstractMultiResolutionImage;
+
+public class _01_Basic {
+
+	public static String solution(String s){
+
+		String answer = "";
+		
+		answer = s.substring((s.length()-1)/2, s.length()/2+1);
+		
+		return answer;
+		
+		
+			
+		}
+	
+	
+	public static void main(String[] args) {
+		String s = "가나다라마바사";
+		String result = solution(s);
+		System.out.println(result);
+		
+				
+		
+		
+	}
+}
+
+
+
