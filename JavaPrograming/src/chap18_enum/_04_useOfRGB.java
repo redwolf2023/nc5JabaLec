@@ -26,6 +26,8 @@ public class _04_useOfRGB {
 		red.makeWhite();
 		blue.makeWhite();
 		green.makeWhite();
+		
+		
 	}
 
 }

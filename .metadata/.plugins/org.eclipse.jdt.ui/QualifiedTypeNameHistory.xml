@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
-    <fullyQualifiedTypeName name="chap15_usefulClass._01_Object.Example"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="javax.print.DocFlavor.STRING"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="java.awt.image.AbstractMultiResolutionImage"/>
-    <fullyQualifiedTypeName name="homework7._02_middle"/>
     <fullyQualifiedTypeName name="chap12_nestedclass._01_innerStaticNestedClass"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
@@ -43,7 +35,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="chap17_generic.clazz.BoardFile"/>
     <fullyQualifiedTypeName name="chap17_generic.clazz.NoticeBoard"/>
     <fullyQualifiedTypeName name="chap17_generic._02_genericMethod"/>
@@ -60,4 +51,13 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.DeFaultMonth"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.DefaultMonth"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.ValueMonth"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.RGB"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.MethodMonth"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.Calcuator"/>
+    <fullyQualifiedTypeName name="chap18_enum.eunms.Calculator"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

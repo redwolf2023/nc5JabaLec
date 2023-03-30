@@ -20,6 +20,7 @@ public enum RGB {
 					index++;
 				}
 			}
+			System.out.println("색상이 부족합니다");
 		}
 	},
 	GREEN("green", 0, 255, 0) {
@@ -39,7 +40,7 @@ String[] color = {"red", "green", "blue"};
 					index++;
 				}
 			}
-			
+			System.out.println("색상이 부족합니다");
 		}
 	},
 	BLUE("blue", 0, 0, 255) {
@@ -59,7 +60,7 @@ String[] color = {"red", "green", "blue"};
 					index++;
 				}
 			}
-			
+			System.out.println("색상이 부족합니다");
 		}
 	};
 	

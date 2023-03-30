@@ -1,0 +1,39 @@
+package homework0329.study;
+
+import java.util.Scanner;
+
+public class IfEx {
+
+	public static void main(String[] args) {
+
+		//1. 사용자가 입력한 두 정수 중에서 큰 정수를 출력하세요.
+		Scanner sc = new Scanner(System.in);
+//		System.out.println("첫번째 정수를 입력하세요.");
+//		int num1 = sc.nextInt();
+//		System.out.println("두번째 정수를 입력하세요.");
+//		int num2 = sc.nextInt();
+//		
+//		int max = num1;
+//		if(num2 > max) {
+//			max = num2;
+//		}else {
+//			max = num1;
+//		}
+//		System.out.println("두 정수 중 크기가 큰 값은 : " + max + "입니다.");
+		
+		//2. 사용자가 입력한 정수가 양수면 "양수" 음수면 "음수"라고 출력하세요.
+		
+		System.out.println("정수를 입력하세요");
+		int num = sc.nextInt();
+		
+		if(num > 0) {
+			System.out.println("양수입니다");
+		}
+		if(num < 0) {
+			System.out.println("음수입니다.");
+		}
+		sc.close();
+		
+	}
+
+}

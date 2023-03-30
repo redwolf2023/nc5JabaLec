@@ -1,0 +1,61 @@
+package homework0329.study;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Varible2 {
+
+	public static void main(String[] args) {
+
+		//2.사용자가 입력한 두개의 정수와 문자(char) 연산자를 받아 두 정수로 해당 연산을 진행한 결과를 출력하세요.
+		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.println("첫번째 정수 하나를 입력하시오");
+//		int a = sc.nextInt();
+//		System.out.println("두번째 정수 하나를 입력하시오.");
+//		int b = sc.nextInt();
+//		char c = '\0';
+		
+//		System.out.println(a + b);
+		
+		//4.사용자가 입력한 5개의 정수의 합계와 평균을 출력하세요.
+		
+//			System.out.println("정수5개를 입력하세요");
+//			int a = sc.nextInt();
+//			int b = sc.nextInt();
+//			int c = sc.nextInt();
+//			int d = sc.nextInt();
+//			int e = sc.nextInt();
+//			int sum = a+b+c+d+e;
+//			int avg = sum / 5;
+//			
+//			System.out.println("합계:" + sum);
+//			System.out.println("평균" + avg);
+//			
+		//5.사용자가 입력한 세 정수의 최소값, 중간값, 최대값을 출력하세요.	
+			
+		int[] num = new int[3];
+        System.out.println("정수 3개를 입력하세요.");
+        for (int i = 0; i < 3; i++) {
+            System.out.print("num[" + i + "] = ");
+            num[i] = sc.nextInt();
+        }
+
+        // 최소값, 중간값, 최대값 계산
+        Arrays.sort(num);
+        int min = num[0];
+        int max = num[num.length - 1];
+        int middle = num[1];
+
+        // 결과 출력
+        System.out.println("최소값: " + min);
+        System.out.println("중간값: " + middle);
+        System.out.println("최대값: " + max);
+
+        sc.close();
+			
+		
+		
+	}
+
+}
