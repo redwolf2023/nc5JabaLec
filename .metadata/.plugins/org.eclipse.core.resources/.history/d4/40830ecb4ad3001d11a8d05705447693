@@ -1,0 +1,18 @@
+package Homework0404;
+
+import Homework0404.clazz.Coffee;
+
+public class UseofCoffee {
+
+	public static void main(String[] args) {
+
+		int americanoPrice = Coffee.AMERICANO.totalPrice(2, 0);
+		int lattePrice =
+				
+		
+		
+		
+		
+	}
+
+}

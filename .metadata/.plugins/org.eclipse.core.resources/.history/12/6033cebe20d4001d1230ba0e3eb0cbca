@@ -1,0 +1,8 @@
+package homework0405.clazz;
+
+@FunctionalInterface
+public interface CardVali {
+	
+	abstract void enlong(int year);
+
+}

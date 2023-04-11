@@ -1,0 +1,33 @@
+package homework0405;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import homework0405.clazz.Student;
+
+public class StreamEx {
+	
+	public static void main(String[] args) {
+
+		//스트림 01
+//		List<Integer> intList = new ArrayList<Integer>();
+//		
+//		for(int i = 0; i < 10; i++) {
+//			intList.add((int)(Math.random() * 10) + 1);
+//			System.out.print(intList.get(i) + ", ");
+//		}
+//		
+//		Stream<Integer> intStream = intList.stream();
+//		Stream<Integer> intMulStream =
+//				intStream.map(i -> i * 3);
+//		
+//		System.out.println();
+//		intMulStream.forEach(i -> System.out.print(i + ", "));
+		
+		//스트림 02
+		List<Student> studentList = new ArrayList<>();
+		
+		studentList.add(new Student(1, "홍길동", 100))
+	}
+
+}

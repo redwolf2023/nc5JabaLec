@@ -1,0 +1,43 @@
+package homework0406;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+import homework0406.clazz.HistoricPerson;
+
+public class UseOfHistoricPerson {
+
+	public static void main(String[] args) {
+
+		List<HistoricPerson> hp = new ArrayList<>();
+		
+		hp.add(new HistoricPerson("이도", "한글", "조선"));
+		hp.add(new HistoricPerson("이순신", "임진왜란", "조선"));
+		hp.add(new HistoricPerson("담덕", "세력확장", "고구려"));
+		hp.add(new HistoricPerson("장영실", "측우기", "조선"));
+		hp.add(new HistoricPerson("이성계", "조선건국", "조선"));
+		hp.add(new HistoricPerson("을지문덕", "살수대첨", "고구려"));
+		hp.add(new HistoricPerson("이승만", "초대대통령", "대한민국"));
+		hp.add(new HistoricPerson("고주몽", "고려건국", "고려"));
+		hp.add(new HistoricPerson("김구", "독립운동", "대한민국"));
+		hp.add(new HistoricPerson("제갈공명", "책략가", "촉"));
+		
+		
+		Stream<HistoricPerson> hpStream = hp.stream();
+		
+//		hpStream.filter(s -> s.getAchievement().equals(s.getPersonInfo("조선건국")))
+//				.forEach(s -> System.out.println(s));
+		
+//		hpStream.filter(s -> s.getName().contains("이"))
+//		    	.forEach(s -> System.out.println(s));
+		
+		hpStream.filter(s -> s.getCountry().equals(s.getSameCountryPerson("조선")))
+		  		.forEach(s -> System.out.println(s));
+			
+		
+		
+						  
+	}
+
+}

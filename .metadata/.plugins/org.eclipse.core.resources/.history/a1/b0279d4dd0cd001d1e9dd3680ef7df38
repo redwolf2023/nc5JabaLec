@@ -1,7 +1,0 @@
-package chap18_enum.enums;
-
-public enum DeFaultMonth {
-	JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
-	SEP, OCT, NOV, DEC;
-
-}

@@ -1,0 +1,38 @@
+package Homework0404.clazz;
+
+public enum CountryFood {
+	
+	KOR("한국", "불고기"),CHI("중국", "짜장면"),
+	JAP("일본", "초밥"),USA("미국", "햄버거");
+	
+	private String ctyName;
+	private String food;
+	
+	
+	CountryFood(String ctyName, String food){
+		this.ctyName = ctyName;
+		this.food = food;
+	}
+
+
+	public String getCtyName() {
+		return ctyName;
+	}
+
+
+	public String getFood() {
+		return food;
+	}
+	
+	public void notifyFood(String country) {
+		
+		if(ctyName.equals(country)) {
+		System.out.println(ctyName + "의 대표음식은 " + food + " 입니다.");
+		}
+	}
+	
+	
+	
+
+
+}

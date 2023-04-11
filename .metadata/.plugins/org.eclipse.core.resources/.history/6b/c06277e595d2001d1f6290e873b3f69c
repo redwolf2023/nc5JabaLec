@@ -1,0 +1,10 @@
+package chap19_multithread.clazz;
+
+public class SumThread1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

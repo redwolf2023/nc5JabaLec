@@ -1,0 +1,74 @@
+package homework0403;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+
+public class Homework0403 {
+
+	public static void main(String[] args) {
+
+		
+		//변수 03 사용자가 입력한 알파벳을 소문자는 대문자로 대문자는 소문자로 변경해서 출력하세요.
+		
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		String str2 = "";
+		
+		for(char c : str.toCharArray()) {
+			if(c>64 && c<91) {
+				char tmp = (char)(c+32);
+				str2 += tmp;
+			} else {
+				char tmp = (char)(c-32);
+				str2 += tmp;
+			}
+		}
+		System.out.println(str2);
+		
+		//형변환 01
+//		StringBuilder sb = new StringBuilder(sc.nextLine());
+//		
+//		if(sb.indexOf(".") == -1) {
+//			int convert = Integer.parseInt(sb.toString());
+//		} else
+//			double convert = Double.parseDouble(sb.toString());
+//		System.out.println(convert);
+		
+		
+		//컬렉션 01
+//		Map<String, Integer> map = new HashMap<String, Integer>();
+//		map.put("비빔밥", 6000);
+//		map.put("칼국수", 9000);
+//		map.put("투뿔등심", 70000);
+//		Map<String, Integer> map2 = new HashMap<String, Integer>();
+//		map2.put("비빔밥", 5);
+//		map2.put("칼국수", 2);
+//		map2.put("투뿔등심", 1);
+//		
+//		int totalPrice = 0;
+//		
+//		for(Entry<String, Integer> ent : map2.entrySet()) {
+//			totalPrice += map.get(ent.getKey()) * ent.getValue();
+//		}
+//		System.out.println(totalPrice);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,45 @@
+package homework0406;
+
+public class HistoricPerson {
+
+	private String name;
+	private String achievement;
+	private String country;
+	
+	public HistoricPerson(String name, String achievement, String country) {
+		this.name = name;
+		this.achievement = achievement;
+		this.country = country;	
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAchievement() {
+		return achievement;
+	}
+
+	public void setAchievement(String achievement) {
+		this.achievement = achievement;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	
+	public void getPersonInfo(String achievement) {
+		
+		System.out.println(name + "입니다.");
+	}
+	
+	
+}
